@@ -86,21 +86,12 @@ Une fois les données disponibles dans MySQL, Power BI est connecté à la base 
 
 ```text
 project/
-│
-├── data/
-│   └── fichiers_sources.csv
-│
-├── notebooks/
-│   └── flux_final_v2.ipynb
-│
-├── scripts/
-│   └── fonctions_etl.py
-│
-├── powerbi/
-│   └── dashboard.pbix
-│
+├── DVF_Partie1.pbix
 ├── README.md
-└── requirements.txt
+├── create_database.sql
+├── dvf_bi.csv
+├── extraire.ipynb
+└── flux_final_v2.ipynb
 ```
 
 ## Installation
